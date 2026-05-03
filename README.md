@@ -10,11 +10,13 @@
 - `tests/validation_checklist.sql` - SQL-проверки для подтверждения после загрузки.
 
 ## Установка
-1. Загрузка необходимых пакетов:
+1. Клонировать репозиторий:
+   - git clone https://github.com/Arsen-Kotsba/Astro_data
+2. Установить зависимости:
    - `pip install -r requirements.txt`
-2. Исполненяемый файл для создания схемы `market_data` в БД:
+3. Запустить исполненяемый файл для создания схемы `market_data` в БД:
    - `scripts/sql/init_exoplanet_schema.sql`
-3. При необходимости настроить переменные среды подключения:
+4. При необходимости настроить переменные среды подключения:
    - `MSSQL_SERVER`, `MSSQL_PORT`, `MSSQL_DATABASE`, `MSSQL_USERNAME`, `MSSQL_PASSWORD`, `MSSQL_DRIVER`
 
 ## Ручной запуск
